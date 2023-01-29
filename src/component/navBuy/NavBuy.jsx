@@ -8,7 +8,7 @@ function NavBuy() {
   return (
     <Navbar variant="dark" bg="dark" expand="lg" className="sticky-top">
       <Container fluid>
-        <Navbar.Brand href="#home" classNmae="navBuy-div-icon">
+        <Navbar.Brand href="#home" className="navBuy-div-icon">
           <img
             src="assests/images/download.svg"
             width="30"

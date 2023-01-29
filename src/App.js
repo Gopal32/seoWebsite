@@ -5,6 +5,7 @@ import React from "react";
 import "./index.css";
 import CopywirteFooter from "./component/footer/copywriteFooter.jsx";
 import MainFooter from "./component/footer/MainFooter.jsx";
+import MarketService from "./component/service/MarketService.jsx";
 // import "./App.css";
 
 function App() {
@@ -14,6 +15,9 @@ function App() {
       <NavBuy></NavBuy>
       <div>
         <Slider></Slider>
+      </div>
+      <div>
+        <MarketService></MarketService>
       </div>
       <div>
         <MainFooter></MainFooter>

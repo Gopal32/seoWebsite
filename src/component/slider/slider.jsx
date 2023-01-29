@@ -54,9 +54,9 @@ function Slider() {
                     need to generate awareness, drive traffic, connect with
                     customers, and increase sales montes
                   </p>
-                  <a href="#" className="btn btn-dark">
+                  {/* <a href="#" className="btn btn-dark">
                     Free Analysis
-                  </a>
+                  </a> */}
                 </div>
                 {/* </div> */}
               </div>

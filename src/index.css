@@ -22,7 +22,7 @@
   padding: 0px 30px 0px 30px;
 }
 .navBuy-icon {
-  margin-left: 30px;
+  margin-left: 1px;
 }
 .nav-div-menu {
   margin-right: 30px;
@@ -58,6 +58,8 @@
   margin-left: auto;
   margin-right: auto;
   margin-top: 4%;
+  max-width: 1100px;
+  max-height: 550px;
   width: 80%;
   height: auto;
 }
@@ -173,4 +175,14 @@
   text-align: center;
   margin-top: 10px;
   color: #878787;
+}
+.div-market-service {
+  background-color: green;
+  padding: 40px 80px 70px 80px;
+}
+.div-service-slogan {
+  /* justify-content: center;
+   */
+  /* align-items: center; */
+  /* text-align: center; */
 }

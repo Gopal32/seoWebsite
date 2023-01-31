@@ -3,8 +3,16 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
+import { useState } from "react";
 
 function NavBuy() {
+  const [show, setShow] = useState(false);
+const showDropdown = (e)=>{
+    setShow(!show);
+}
+const hideDropdown = e => {
+    setShow(false);
+}
   return (
     <Navbar variant="dark" bg="dark" expand="lg" className="sticky-top">
       <Container fluid>
@@ -22,12 +30,15 @@ function NavBuy() {
           id="navbar-dark-example"
           className="nav-div-menu justify-content-end"
         >
-          <Nav className="nav-div-dropdown">
+          <Nav className="nav-div-dropdown" >
             <NavDropdown
               id="nav-dropdown-dark-example"
               className="nav-dropdown"
               title="Home"
               menuVariant="dark"
+              show={show}
+   onMouseEnter={showDropdown} 
+   onMouseLeave={hideDropdown}
             >
               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">

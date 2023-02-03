@@ -24,12 +24,12 @@ function Slider() {
             <div className="row">
               <div className="col-md-2 position-relative ">
                 <img
-                  className="position-absolute top-0 d-block"
+                  className="position-absolute top-0 start-0 d-block"
                   src="assests/images/pattern_arrow2.png"
                   alt="arrow 1"
                 />
                 <img
-                  className="position-absolute bottom-0 left-0 d-block"
+                  className="position-absolute bottom-0 start-0 d-block"
                   src="assests/images/pattern_arrow1.png"
                   alt="arrow 2"
                 />
@@ -62,7 +62,7 @@ function Slider() {
               </div>
               <div className="col-md-2 position-relative">
                 <img
-                  className="position-absolute bottom-0 right-0 d-block"
+                  className="position-absolute bottom-0 end-0"
                   src="assests/images/pattern_arrow3.png"
                   alt="Second slide"
                 />

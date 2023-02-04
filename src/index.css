@@ -1,15 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Arimo&family=Sofia+Sans+Semi+Condensed&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Arimo&family=Sofia+Sans+Semi+Condensed&display=swap");
 
 * {
   padding: 0px;
   margin: 0px;
-  font-family: 'Sofia Sans Semi Condensed', sans-serif;
+  font-family: "Sofia Sans Semi Condensed", sans-serif;
 }
 
-.red{
+.red {
   border: 1px solid red;
 }
-.blue{
+.blue {
   border: 1px solid blue;
 }
 .app {
@@ -197,30 +197,30 @@
   /* text-align: center; */
 }
 
-.ornageVerticalborder{
+.ornageVerticalborder {
   border-right: 2px solid rgb(255, 102, 0);
 }
 
-.text-right{
+.text-right {
   text-align: right;
 }
-.orangeColor{
+.orangeColor {
   color: rgb(255, 102, 0);
 }
 
 .readMorebutton a {
-  cursor:pointer;
+  cursor: pointer;
   /* text-decoration: none; */
   color: rgb(255, 102, 0);
 }
 
-.orangeBorder{
+.orangeBorder {
   width: 200px;
   margin: 25px 0px;
   border-bottom: 2px solid rgb(255, 102, 0);
 }
 
-.btnWidth{
+.btnWidth {
   border-radius: 20px !important;
   color: #fff;
   width: 150px;
@@ -228,15 +228,16 @@
   border: none;
   margin: 0px 10px;
 }
-.bgorange{
+.bgorange {
   background-color: rgb(255, 102, 0);
 }
 
-.bgorange:hover, .btnWidth:hover{
+.bgorange:hover,
+.btnWidth:hover {
   color: white;
   background-color: rgb(39, 39, 39);
 }
 
-.services div h2:hover{
+.services div h2:hover {
   color: rgb(255, 102, 0);
 }

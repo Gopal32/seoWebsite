@@ -1,6 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Arimo&family=Sofia+Sans+Semi+Condensed&display=swap");
+
 * {
   padding: 0px;
   margin: 0px;
+  font-family: "Sofia Sans Semi Condensed", sans-serif;
+}
+
+.red {
+  border: 1px solid red;
+}
+.blue {
+  border: 1px solid blue;
 }
 .app {
   text-align: center;
@@ -177,7 +187,7 @@
   color: #878787;
 }
 .div-market-service {
-  background-color: green;
+  background-color: rgb(255, 255, 255);
   padding: 40px 80px 70px 80px;
 }
 .div-service-slogan {
@@ -185,4 +195,49 @@
    */
   /* align-items: center; */
   /* text-align: center; */
+}
+
+.ornageVerticalborder {
+  border-right: 2px solid rgb(255, 102, 0);
+}
+
+.text-right {
+  text-align: right;
+}
+.orangeColor {
+  color: rgb(255, 102, 0);
+}
+
+.readMorebutton a {
+  cursor: pointer;
+  /* text-decoration: none; */
+  color: rgb(255, 102, 0);
+}
+
+.orangeBorder {
+  width: 200px;
+  margin: 25px 0px;
+  border-bottom: 2px solid rgb(255, 102, 0);
+}
+
+.btnWidth {
+  border-radius: 20px !important;
+  color: #fff;
+  width: 150px;
+  padding: 10px;
+  border: none;
+  margin: 0px 10px;
+}
+.bgorange {
+  background-color: rgb(255, 102, 0);
+}
+
+.bgorange:hover,
+.btnWidth:hover {
+  color: white;
+  background-color: rgb(39, 39, 39);
+}
+
+.services div h2:hover {
+  color: rgb(255, 102, 0);
 }

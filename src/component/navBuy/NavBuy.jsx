@@ -7,12 +7,12 @@ import { useState } from "react";
 
 function NavBuy() {
   const [show, setShow] = useState(false);
-const showDropdown = (e)=>{
+  const showDropdown = (e) => {
     setShow(!show);
-}
-const hideDropdown = e => {
+  };
+  const hideDropdown = (e) => {
     setShow(false);
-}
+  };
   return (
     <Navbar variant="dark" bg="dark" expand="lg" className="sticky-top">
       <Container fluid>
@@ -30,15 +30,15 @@ const hideDropdown = e => {
           id="navbar-dark-example"
           className="nav-div-menu justify-content-end"
         >
-          <Nav className="nav-div-dropdown" >
+          <Nav className="nav-div-dropdown">
             <NavDropdown
               id="nav-dropdown-dark-example"
               className="nav-dropdown"
               title="Home"
               menuVariant="dark"
               show={show}
-   onMouseEnter={showDropdown} 
-   onMouseLeave={hideDropdown}
+              onMouseEnter={showDropdown}
+              onMouseLeave={hideDropdown}
             >
               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">

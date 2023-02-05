@@ -6,10 +6,11 @@ function MainFooter() {
       <div className="div-footer container-fluid">
         <div className="footer row">
           <div className="col-lg-5">
-            <div className="card-footer">
+            <div className="card-footer" style={{ padding: "0% 8% 0% 15%" }}>
               <Card
                 style={{
                   backgroundColor: "#202020",
+                  padding: "40px 30px 20px 30px",
                 }}
               >
                 <img
@@ -27,8 +28,9 @@ function MainFooter() {
                   </Card.Title>
                 </Card.Body>
               </Card>
-              <div className="title-footer">
+              <div className="title-footer d-flex">
                 <img src="assests/images/best.png" alt="logo" />
+                <h3>Best Seo Company 2017</h3>
               </div>
             </div>
           </div>
